@@ -19,6 +19,7 @@ namespace BreadcrumbGenerator
             /*Description: given a valid URL and the character you want each breadcrumb split by, will generate the breadcrumbs at the top of a web page
             /* Inputs: A valid URL, the character you would like each breadcrumb split by
             /* outputs: a valid breadcrumb at the top of a page
+            /* factors in a lot of error detection
             /*******************************************************************************/
 
             string[] splitURL = URL.Split("/");
